@@ -175,10 +175,10 @@ class Programs
         var gestore = GestoreOrdine.Istanza;
         gestore.AggiungiObserver(new SistemaLog());
         gestore.AggiungiObserver(new SistemaMarketing());
-        IPIzza pizza = PizzaFactory.CreaPizza(tipo);
 
         Console.WriteLine("Scegli Pizza");
         var tipo = Console.ReadLine();
+        IPIzza pizza = PizzaFactory.CreaPizza(tipo);
         switch (tipo.ToLower())
         {
             case "olive":
