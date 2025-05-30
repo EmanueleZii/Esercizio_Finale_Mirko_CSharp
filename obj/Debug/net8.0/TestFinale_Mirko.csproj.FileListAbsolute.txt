@@ -1,0 +1,15 @@
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/bin/Debug/net8.0/TestFinale_Mirko
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/bin/Debug/net8.0/TestFinale_Mirko.deps.json
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/bin/Debug/net8.0/TestFinale_Mirko.runtimeconfig.json
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/bin/Debug/net8.0/TestFinale_Mirko.dll
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/bin/Debug/net8.0/TestFinale_Mirko.pdb
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/TestFinale_Mirko.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/TestFinale_Mirko.AssemblyInfoInputs.cache
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/TestFinale_Mirko.AssemblyInfo.cs
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/TestFinale_Mirko.csproj.CoreCompileInputs.cache
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/TestFinale_Mirko.sourcelink.json
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/TestFinale_Mirko.dll
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/refint/TestFinale_Mirko.dll
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/TestFinale_Mirko.pdb
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/TestFinale_Mirko.genruntimeconfig.cache
+/Users/emanuele/Documents/WebDevProjects/c#/TestFinale_Mirko/obj/Debug/net8.0/ref/TestFinale_Mirko.dll

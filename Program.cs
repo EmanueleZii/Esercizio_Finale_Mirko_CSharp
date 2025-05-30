@@ -119,10 +119,8 @@ public class SistemaLog : IObserver
         Console.WriteLine($"[LOG] Nuovo ordine: {ordine}");
     }
 }
-public class SistemaMarketing : IObserver
-{
-    public void Notifica(string ordine)
-    {
+public class SistemaMarketing : IObserver {
+    public void Notifica(string ordine) {
         Console.WriteLine($"[MARKETING] Promo inviata per: {ordine}");
     }
 }
@@ -142,7 +140,6 @@ public class GestoreOrdine
         {
             if (istanza == null)
                 istanza = new GestoreOrdine();
-
             return istanza; 
         }
     }
@@ -167,11 +164,8 @@ public class GestoreOrdine
 }
 
 //Program
-
-class Programs
-{
-    public static void Main()
-    {
+class Programs {
+    public static void Main() {
         var gestore = GestoreOrdine.Istanza;
         gestore.AggiungiObserver(new SistemaLog());
         gestore.AggiungiObserver(new SistemaMarketing());
@@ -179,27 +173,23 @@ class Programs
         Console.WriteLine("Scegli Pizza");
         var tipo = Console.ReadLine();
         IPIzza pizza = PizzaFactory.CreaPizza(tipo);
-        switch (tipo.ToLower())
-        {
+        switch (tipo.ToLower()){
             case "olive":
                 pizza = new ConOlive(pizza);
                 break;
             case "mozzarella":
                 pizza = new ConMozzarellaExtra(pizza);
                 break;
-
             case "funghi":
                 pizza = new ConFunghi(pizza);
                 break;
             default:
                 break;
-
         }
         Console.WriteLine("Metodo di cottura");
         var metodo = Console.ReadLine();
         IMetodoCottura cottura = new FornoElettrico();
-        switch (metodo.ToLower())
-        {
+        switch (metodo.ToLower()) {
             case "elettrico":
                 cottura = new FornoElettrico();
                 break;
@@ -210,7 +200,6 @@ class Programs
                 cottura = new FornoLegna();
                 break;
         } 
-        
         var descrizione = pizza.Descrizione();
         var pizzaCotta = cottura.Cuoci(descrizione);
         gestore.NuovoOrdine(pizzaCotta);
